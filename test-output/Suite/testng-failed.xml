@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.TC001_locator">
+        <methods>
+          <include name="locatorLearning"/>
+          <include name="setDriver"/>
+          <include name="closeWindows"/>
+        </methods>
+      </class> <!-- testCases.TC001_locator -->
+      <class name="testCases.TC006_Refresh">
+        <methods>
+          <include name="setDriver"/>
+          <include name="refreshPage"/>
+          <include name="closeWindows"/>
+        </methods>
+      </class> <!-- testCases.TC006_Refresh -->
+      <class name="testCases.TC007_scroll">
+        <methods>
+          <include name="setDriver"/>
+          <include name="scrollCheck"/>
+          <include name="closeWindows"/>
+        </methods>
+      </class> <!-- testCases.TC007_scroll -->
+      <class name="testCases.TC0010_keyBoardEvent">
+        <methods>
+          <include name="setDriver"/>
+          <include name="keyBoardEventCheck"/>
+          <include name="closeWindows"/>
+        </methods>
+      </class> <!-- testCases.TC0010_keyBoardEvent -->
+      <class name="testCases.TC008_Rightclick">
+        <methods>
+          <include name="setDriver"/>
+          <include name="doubleClickRightClick"/>
+          <include name="closeWindows"/>
+        </methods>
+      </class> <!-- testCases.TC008_Rightclick -->
+      <class name="testCases.TC003_VerifyPageTitle">
+        <methods>
+          <include name="isWebSiteSecured"/>
+          <include name="setDriver"/>
+          <include name="verifyPageTitle_shouldpass"/>
+          <include name="closeWindows"/>
+        </methods>
+      </class> <!-- testCases.TC003_VerifyPageTitle -->
+      <class name="testCases.TC005_DropDown">
+        <methods>
+          <include name="selectingValueFromDropDown"/>
+          <include name="setDriver"/>
+          <include name="closeWindows"/>
+        </methods>
+      </class> <!-- testCases.TC005_DropDown -->
+      <class name="testCases.TC009_slider">
+        <methods>
+          <include name="sliderCheck"/>
+          <include name="setDriver"/>
+          <include name="closeWindows"/>
+        </methods>
+      </class> <!-- testCases.TC009_slider -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
